@@ -23,7 +23,7 @@ import java.util.List;
 /**
  * Created by tomacco on 21/11/15.
  */
-public class MOCApp extends Application implements MOCAProximityService.EventListener, MOCAProximityService.ActionListener{
+public abstract class MOCApp extends Application implements MOCAProximityService.EventListener, MOCAProximityService.ActionListener{
 
     private HashMap<String, MOCACallbackContext> callbackContextMap = new HashMap<String, MOCACallbackContext>();
 
